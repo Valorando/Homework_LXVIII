@@ -1,0 +1,6 @@
+{
+    "Get_all_orders_request": "SELECT id, user_id, currency, side, price, amount FROM orders",
+    "Add_order_request": "INSERT INTO orders (id, user_id, currency, side, price, amount) VALUES (%s, %s, %s, %s, %s, %s)",
+    "Edit_order_request": "UPDATE orders SET id = %s, user_id = %s, currency = %s, side = %s, price = %s, amount = %s WHERE id = %s",
+    "Delete_order_request": "DELETE FROM orders WHERE id = %s"
+}

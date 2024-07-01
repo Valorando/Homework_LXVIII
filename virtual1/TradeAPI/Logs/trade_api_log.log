@@ -1,0 +1,7 @@
+2024-07-01 at 15:01:56 | INFO | Starting Trading API...
+2024-07-01 at 15:02:38 | INFO | Request from 127.0.0.1: GET http://127.0.0.1:8000/docs
+2024-07-01 at 15:02:38 | INFO | Response status code: 200 - Processed in 0.2280 seconds
+2024-07-01 at 15:03:33 | INFO | Request from 127.0.0.1: GET http://127.0.0.1:8000/orders/
+2024-07-01 at 15:03:33 | INFO | Fetched orders: [IOModel(id=58475, user_id=684, currency='BTC', side=<Side.buy: 'buy'>, price=123.0, amount=2.12), IOModel(id=4747, user_id=406406, currency='str', side=<Side.buy: 'buy'>, price=0.0, amount=0.0)]
+2024-07-01 at 15:03:33 | INFO | Response status code: 200 - Processed in 0.1610 seconds
+2024-07-01 at 15:04:09 | INFO | Shutting down Trading API...
