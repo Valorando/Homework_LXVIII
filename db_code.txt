@@ -1,0 +1,12 @@
+CREATE DATABASE trading;
+USE trading;
+CREATE TABLE orders (
+    id INT NOT NULL,
+    user_id INT NOT NULL,
+    currency VARCHAR(10) NOT NULL,
+    side ENUM('buy', 'sell') NOT NULL,
+    price DECIMAL(10, 2) NOT NULL,
+    amount DECIMAL(10, 2) NOT NULL
+);
+INSERT INTO orders (id, user_id, currency, side, price, amount)
+VALUES (58475, 684, 'BTC', 'buy', 123, 2.12);
